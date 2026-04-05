@@ -4,7 +4,7 @@ import json
 
 class File:
 
-    def __innit__(self, file_path):
+    def __innit__(self, file_path="player_data.json"):
 
         self.file_path = file_path
 
