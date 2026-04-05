@@ -22,3 +22,7 @@ class File:
                 "Iron Bar": 0,
                 "Gold Bar": 0,
             }
+
+    def save(self, data):
+        with open(self.file_path, "w") as file:
+            json.dump(data, file, indent=4)
