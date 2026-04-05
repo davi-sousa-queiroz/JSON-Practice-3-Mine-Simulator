@@ -1,3 +1,5 @@
+# ----- LOADING AND SAVING GAME DATA ---------
+
 import json
 
 class File:
