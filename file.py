@@ -2,7 +2,7 @@ import json
 
 class File:
 
-    def __innit__(self, file_name):
+    def __innit__(self, file_path):
 
         self.file_path = file_path
 
