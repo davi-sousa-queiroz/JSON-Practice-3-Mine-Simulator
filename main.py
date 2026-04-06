@@ -1,5 +1,6 @@
 from file import File
 from mine import Mine
+from economy import Economy
 
 player_data = File()
 data = player_data.load()
