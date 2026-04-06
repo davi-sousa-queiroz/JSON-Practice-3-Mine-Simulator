@@ -27,6 +27,8 @@ def main():
             break
         elif selection == "3":
             player_mine.view_inventory()
+        elif selection == "4":
+            player_economy.run()
         else:
             print("\nType a valid selection!")
 
