@@ -20,3 +20,20 @@ class Economy:
             self.data[item] -= 1
             self.data["Coins"] += price
             print(f"\nYou sold {item} for {price} Coins!")
+
+    def run(self):
+        while True:
+            self.menu()
+            number = input("\n(1-5): >> ")
+            if number == "1":
+                self.sell("coal", 1)
+            elif number == "2":
+                self.sell("Copper Ore", 5)
+            elif number == "3":
+                self.sell("Iron Ore", 10)
+            elif number == "4":
+                self.sell("Gold Ore", 50)
+            elif number == "5":
+                self.sell("Diamond", 250)
+            else:
+                print("\nEnter a valid number!")
