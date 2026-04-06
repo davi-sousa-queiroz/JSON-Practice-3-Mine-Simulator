@@ -27,5 +27,6 @@ class File:
             }
 
     def save(self, data):
-        with open(self.file_path, "w") as file:
+        print("")
+        with open("player_data.json", "w") as file:
             json.dump(data, file, indent=4)
