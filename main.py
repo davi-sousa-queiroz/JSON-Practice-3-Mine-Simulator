@@ -14,6 +14,7 @@ def main():
         print("\n1. Mine")
         print("2. Quit")
         print("3. View inventory")
+        print("4. Sell/Buy")
 
         selection = input("\n>> ")
 
