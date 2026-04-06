@@ -12,3 +12,11 @@ class Economy:
         print("3. | Iron Ore   | (10$)  |")
         print("4. | Gold Ore   | (50$)  |")
         print("5. | Diamond    | (250$) |")
+
+    def sell(self, item, price):
+        if self.data[item] < 0:
+            print("\nYou don't have this item!")
+        else:
+            self.data[item] -= 1
+            self.data["Coins"] += price
+            print(f"\nYou sold {item} for {price} Coins!")
