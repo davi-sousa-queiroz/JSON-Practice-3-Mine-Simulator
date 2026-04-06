@@ -10,7 +10,7 @@ class File:
 
     def load(self):
         try:
-            with open(self.file_path, "r") as file:
+            with open("player_data.json", "r") as file:
                 return json.load(file)
         except FileNotFoundError:
             return {
