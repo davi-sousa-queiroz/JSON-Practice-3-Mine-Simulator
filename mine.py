@@ -28,3 +28,7 @@ class Mine:
             print("You found... Nothing??")
 
         print("================================")
+
+    def view_inventory(self):
+        for item, quantity in self.data.items():
+            print(f"{item}: {quantity}")
