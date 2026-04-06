@@ -36,5 +36,7 @@ class Economy:
                 self.sell("Gold Ore", 50)
             elif number == "5":
                 self.sell("Diamond", 250)
+            elif number == "q":
+                break
             else:
                 print("\nEnter a valid number!")
