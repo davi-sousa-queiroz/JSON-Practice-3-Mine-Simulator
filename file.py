@@ -14,6 +14,7 @@ class File:
                 return json.load(file)
         except (FileNotFoundError, json.JSONDecodeError):
             return {
+
                 "Coins": 0,
                 "Coal": 0,
                 "Copper Ore": 0,
