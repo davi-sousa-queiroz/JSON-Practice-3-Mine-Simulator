@@ -12,6 +12,7 @@ class Economy:
         print("3. | Iron Ore   | (10$)  |")
         print("4. | Gold Ore   | (50$)  |")
         print("5. | Diamond    | (250$) |")
+        print("===============================")
 
     def sell(self, item, price):
         if self.data[item] < 0:
