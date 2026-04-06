@@ -6,7 +6,7 @@ class File:
 
     def __innit__(self):
 
-        self.file_path = file_path
+        self.file_path = "player_data.json"
 
     def load(self):
         try:
