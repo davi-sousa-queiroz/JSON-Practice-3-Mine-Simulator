@@ -20,7 +20,7 @@ class File:
                 "Copper Ore": 0,
                 "Iron Ore": 0,
                 "Gold Ore": 0,
-                "Diamonds": 0
+                "Diamond": 0
 
             }
 
