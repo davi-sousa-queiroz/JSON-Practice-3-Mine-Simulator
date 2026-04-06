@@ -10,7 +10,7 @@ class Mine:
         print("\n====== YOU ENTER THE MINES ======")
         i = random.randint(1, 100)
         if i < 2:
-            print("\nYOU FOUND A DIAMOND!! 💎")
+            print("YOU FOUND A DIAMOND!! 💎")
             self.data["Diamonds"] += 1
         elif i < 11:
             print("\nYOU FOUND GOLD ORE! ⚱️")
