@@ -26,7 +26,7 @@ class Economy:
             self.menu()
             number = input("\n(1-5): >> ")
             if number == "1":
-                self.sell("coal", 1)
+                self.sell("Coal", 1)
             elif number == "2":
                 self.sell("Copper Ore", 5)
             elif number == "3":
