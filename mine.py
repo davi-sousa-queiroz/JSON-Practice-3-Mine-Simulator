@@ -22,7 +22,8 @@ class Mine:
             print("You found Copper Ore!")
             self.data["Copper Ore"] += 1
         elif i < 101:
-            print("\nYou found coal.")
+            print("You found coal.")
+            self.data["Coal"] += 1
         else:
             print("You found... Nothing??")
 
