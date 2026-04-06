@@ -12,7 +12,7 @@ class File:
         try:
             with open("player_data.json", "r") as file:
                 return json.load(file)
-        except FileNotFoundError:
+        except (FileNotFoundError, json.JSONDecodeError):
             return {
                 "Coins": 0,
                 "Coal": 0,
