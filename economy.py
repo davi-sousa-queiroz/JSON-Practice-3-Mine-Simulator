@@ -15,7 +15,7 @@ class Economy:
         print("===============================")
 
     def sell(self, item, price):
-        if self.data[item] < 0:
+        if self.data[item] <= 0:
             print("\nYou don't have this item!")
         else:
             self.data[item] -= 1
