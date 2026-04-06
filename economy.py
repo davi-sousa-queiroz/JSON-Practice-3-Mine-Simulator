@@ -25,7 +25,7 @@ class Economy:
     def run(self):
         while True:
             self.menu()
-            number = input("\n(1-5): >> ")
+            number = input("\nPress 'q' to return to menu: >> ")
             if number == "1":
                 self.sell("Coal", 1)
             elif number == "2":
