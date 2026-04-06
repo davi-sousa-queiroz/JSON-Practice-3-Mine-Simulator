@@ -20,10 +20,8 @@ class File:
                 "Copper Ore": 0,
                 "Iron Ore": 0,
                 "Gold Ore": 0,
-                "Diamonds": 0,
-                "Copper Bar": 0,
-                "Iron Bar": 0,
-                "Gold Bar": 0,
+                "Diamonds": 0
+
             }
 
     def save(self, data):
